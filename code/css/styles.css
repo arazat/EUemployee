@@ -1,0 +1,218 @@
+/*���������*/
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+
+*,
+*:before,
+*:after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+:focus,
+:active {
+  outline: none;
+}
+
+a:focus,
+a:active {
+  outline: none;
+}
+
+nav,
+footer,
+header,
+aside {
+  display: block;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+  font-size: 100%;
+  line-height: 1;
+  font-size: 14px;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+
+input,
+button,
+textarea {
+  font-family: inherit;
+}
+
+input::-ms-clear {
+  display: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+button::-moz-focus-inner {
+  padding: 0;
+  border: 0;
+}
+
+a,
+a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+ul li {
+  list-style: none;
+}
+
+img {
+  vertical-align: top;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size: inherit;
+  font-weight: 400;
+
+}
+
+/*--------------------*/
+body {
+  height: 100vh;
+}
+
+header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0 70px 2px 70px;
+  justify-content: space-between;
+  background-color: #fff;
+  box-shadow: 0 0 20px rgb(156, 156, 156);
+}
+
+.logo {
+  display: flex;
+}
+
+.logo__img {
+  height: 50px;
+}
+
+.lang {
+  margin: 0 20px 0 20px;
+}
+
+
+.lang {
+  margin: 0 20px 0 10px;
+}
+
+
+
+.langs {
+  padding: 2px;
+  text-align: center;
+  font-size: 12px;
+
+}
+
+.langs:hover {
+  background-color: rgb(255, 187, 215);
+
+}
+
+.kz {
+  border: 2px solid rgb(117, 117, 247);
+}
+
+.ru {
+  border-left: 2px solid rgb(117, 117, 247);
+  border-right: 2px solid rgb(117, 117, 247);
+
+}
+
+.eng {
+  border: 2px solid rgb(117, 117, 247);
+}
+
+.menu__container {
+  height: 100%;
+  width: 620px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+}
+
+.menu-item {
+  padding: 20px 20px 20px 20px;
+  border: 1px solid rgb(117, 117, 247);
+  font-size: 16px;
+
+}
+
+.menu-item:hover {
+  background-color: rgb(255, 187, 215);
+
+}
+
+.sub-menu {}
+
+.message {
+  margin: 460px 0 0 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+
+}
+
+.bottom {
+  position: relative;
+  bottom: 0;
+
+  box-shadow: 50px 0 50px rgb(255, 206, 255);
+
+}
+
+input {
+  border: 2px solid rgb(182, 182, 255);
+  border-radius: 5px;
+  height: 40px;
+  width: 600px;
+  font-size: 18px;
+  padding: 0 0 0 15px;
+  font-family: Arial, Helvetica, sans-serif;
+  box-shadow: 0 0 5px rgb(139, 139, 139);
+
+
+}
+
+.message img {
+  height: 80px;
+}
+
+
+.sub-menu {
+
+  position: absolute;
+  margin: 40px 0 0 0;
+  height: 0;
+  overflow: hidden;
+  opacity: 0;
+  transition: all 0.5s ease-in;
+}
